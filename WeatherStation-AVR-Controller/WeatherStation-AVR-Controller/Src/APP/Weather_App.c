@@ -95,8 +95,8 @@ void WeatherApp_Init(void)
 
     Uart_Init();
     Timer0_Init();
-    sei();
-    Exti_Enable(EXTI_INT0, EXTI_RISING);    
+
+    Exti_Enable(EXTI_INT0, EXTI_RISING);
     Exti_Enable(EXTI_INT1, EXTI_FALLING);
 
     WeatherApp_LoadLogCount();
