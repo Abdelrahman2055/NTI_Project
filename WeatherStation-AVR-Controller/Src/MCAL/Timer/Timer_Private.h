@@ -1,0 +1,6 @@
+#ifndef TIMER_PRIVATE_H
+#define TIMER_PRIVATE_H
+
+#define TIMER0_PRESCALER 64
+
+#endif
