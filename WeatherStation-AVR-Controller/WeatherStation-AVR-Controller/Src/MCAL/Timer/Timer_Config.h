@@ -1,6 +1,0 @@
-#ifndef TIMER_CONFIG_H
-#define TIMER_CONFIG_H
-
-#define TIMER0_COMPARE_VALUE 124
-
-#endif

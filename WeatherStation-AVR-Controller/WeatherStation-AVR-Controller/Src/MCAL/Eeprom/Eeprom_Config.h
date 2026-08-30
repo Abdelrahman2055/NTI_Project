@@ -1,6 +1,0 @@
-#ifndef EEPROM_CONFIG_H
-#define EEPROM_CONFIG_H
-
-#define EEPROM_MAX_ADDRESS 1023
-
-#endif
