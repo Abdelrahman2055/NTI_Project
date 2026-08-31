@@ -1,6 +1,5 @@
+#include "Lcd_Interface.h"   
 #include <util/delay.h>
-
-#include "Lcd_Interface.h"
 #include "Lcd_Private.h"
 #include "Lcd_Config.h"
 

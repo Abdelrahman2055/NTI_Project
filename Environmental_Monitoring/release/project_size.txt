@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   3038	    170	      9	   3217	    c91	D:\Environmental_Monitoring\release\project.elf

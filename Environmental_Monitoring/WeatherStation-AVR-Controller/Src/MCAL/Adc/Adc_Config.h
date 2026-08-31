@@ -5,6 +5,6 @@
 #define ADC_VREF_AVCC     1
 #define ADC_VREF_INTERNAL 2
 
-#define ADC_VREF ADC_VREF_INTERNAL
+#define ADC_VREF ADC_VREF_AVCC
 
 #endif

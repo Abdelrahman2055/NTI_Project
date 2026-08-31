@@ -1,13 +1,13 @@
-#include <avr/interrupt.h>
-#include <util/delay.h>
-
 #include "../Common/Definition.h"
 
+#include <avr/interrupt.h>
+#include <util/delay.h>
 #include "../HAL/Lcd/Lcd_Interface.h"
 #include "../HAL/LM35/LM35_Interface.h"
 #include "../HAL/Ldr/Ldr_Interface.h"
 #include "../HAL/Buzzer/Buzzer_Interface.h"
 #include "../HAL/Buzzer/Buzzer_Config.h"
+#include "../MCAL/Adc/Adc_Interface.h"
 
 #include "../MCAL/Timer/Timer_Interface.h"
 #include "../MCAL/Uart/Uart_Interface.h"
@@ -90,22 +90,25 @@ void WeatherApp_Init(void)
     Lcd_Init();
     LM35_Init();
     Ldr_Init();
-
     Buzzer_Init(BUZZER_PORT_ID, BUZZER_PIN_ID);
-
     Uart_Init();
     Timer0_Init();
 
     Exti_Enable(EXTI_INT0, EXTI_RISING);
     Exti_Enable(EXTI_INT1, EXTI_FALLING);
 
+    sei();
+
     WeatherApp_LoadLogCount();
 
     Lcd_SetCursor(0, 0);
     Lcd_SendString("Weather Station");
+
     Lcd_SetCursor(1, 0);
     Lcd_SendString("Team 3");
+
     _delay_ms(WELCOME_DELAY_MS);
+
     Lcd_Clear();
 
     Uart_SendString("Weather Station Ready\r\n");
@@ -144,6 +147,14 @@ void WeatherApp_Update(void)
 
         Temperature = LM35_GetTemperature();
         Light = Ldr_GetLight();
+
+        /* ---- DEBUG: remove after diagnosing ---- */
+        Uart_SendString("raw A0=");
+        Uart_SendNumber(Adc_ReadChannel(0));
+        Uart_SendString(" raw A1=");
+        Uart_SendNumber(Adc_ReadChannel(1));
+        Uart_SendString("\r\n");
+        /* ----------------------------------------- */
 
         Lcd_SetCursor(0, 0);
         Lcd_SendString("T:");

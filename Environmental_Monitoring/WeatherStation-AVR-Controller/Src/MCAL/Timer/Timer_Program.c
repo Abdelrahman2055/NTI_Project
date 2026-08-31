@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
-
+#include <util/atomic.h>  
 #include "Timer_Interface.h"
 #include "Timer_Private.h"
 #include "Timer_Config.h"
@@ -27,7 +27,10 @@ uint16_t Timer0_GetMillis(void)
 {
     uint16_t Copy;
 
-    Copy = Timer0_Millis;
+    ATOMIC_BLOCK(ATOMIC_RESTORESTATE)
+    {
+        Copy = Timer0_Millis;
+    }
 
     return Copy;
 }

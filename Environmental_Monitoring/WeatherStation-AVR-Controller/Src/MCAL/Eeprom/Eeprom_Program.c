@@ -1,5 +1,5 @@
 #include <avr/io.h>
-
+#include <util/atomic.h>  
 #include "Eeprom_Interface.h"
 #include "Eeprom_Private.h"
 #include "Eeprom_Config.h"
@@ -13,8 +13,11 @@ void Eeprom_WriteByte(uint16_t Address, uint8_t Data)
 
     EEDR = Data;
 
-    EECR |= (1 << EEMWE);
-    EECR |= (1 << EEWE);
+    ATOMIC_BLOCK(ATOMIC_RESTORESTATE)
+    {
+        EECR |= (1 << EEMWE);
+        EECR |= (1 << EEWE);
+    }
 }
 
 uint8_t Eeprom_ReadByte(uint16_t Address)

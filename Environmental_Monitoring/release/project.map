@@ -1,0 +1,600 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                              D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Ldr\Ldr_Program.c.o (__umulhisi3)
+C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                              D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Ldr\Ldr_Program.c.o (__udivmodsi4)
+C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                              C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o (exit)
+C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                              D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\APP\Weather_App.c.o (__do_copy_data)
+C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                              D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\APP\Weather_App.c.o (__do_clear_bss)
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800060         0x00000800         rw!x
+eeprom           0x00810000         0x00000400         rw!x
+fuse             0x00820000         0x00000002         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\APP\Weather_App.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Buzzer\Buzzer_Program.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Lcd\Lcd_Program.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Ldr\Ldr_Program.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\LM35\LM35_Program.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\main.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Adc\Adc_Program.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Dio\Dio_Program.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Eeprom\Eeprom_Program.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Exti\Exti_Program.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Timer\Timer_Program.c.o
+LOAD D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Uart\Uart_Program.c.o
+START GROUP
+LOAD C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a
+LOAD C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libm.a
+LOAD C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a
+LOAD C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega32.a
+END GROUP
+                [0x00000000]                      __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00008000]                      __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00800060]                      __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00000800]                      __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                      __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000002]                      __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xbde
+ *(.vectors)
+ .vectors       0x00000000       0x54 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000054                        . = ALIGN (0x2)
+                0x00000054                        __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                        __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x00000054                        . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                        __ctors_start = .
+ *(.ctors)
+                0x00000054                        __ctors_end = .
+                0x00000054                        __dtors_start = .
+ *(.dtors)
+                0x00000054                        __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_3
+                0x0000008e                __vector_11
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092      0x2de D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\APP\Weather_App.c.o
+                0x00000092                __vector_1
+                0x0000009e                __vector_2
+                0x000000aa                WeatherApp_Init
+                0x00000128                WeatherApp_Update
+ .text          0x00000370       0x32 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Buzzer\Buzzer_Program.c.o
+                0x00000370                Buzzer_Init
+                0x00000396                Buzzer_On
+                0x0000039c                Buzzer_Off
+ .text          0x000003a2      0x386 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Lcd\Lcd_Program.c.o
+                0x000003f8                Lcd_Init
+                0x00000502                Lcd_SendCommand
+                0x00000538                Lcd_SendChar
+                0x0000056e                Lcd_SendString
+                0x000005b6                Lcd_SendNumber
+                0x000006bc                Lcd_SetCursor
+                0x000006fc                Lcd_Clear
+ .text          0x00000728       0x2e D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Ldr\Ldr_Program.c.o
+                0x00000728                Ldr_Init
+                0x00000736                Ldr_GetLight
+ .text          0x00000756       0x32 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\LM35\LM35_Program.c.o
+                0x00000756                LM35_Init
+                0x00000764                LM35_GetTemperature
+ .text          0x00000788        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\main.c.o
+ .text          0x00000788       0x26 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Adc\Adc_Program.c.o
+                0x00000788                Adc_Init
+                0x00000792                Adc_ReadChannel
+ .text          0x000007ae      0x1cc D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Dio\Dio_Program.c.o
+                0x000007ae                Dio_SetPinDirection
+                0x00000836                Dio_SetPinValue
+                0x000008be                Dio_GetPinValue
+                0x00000918                Dio_SetPortDirection
+                0x00000938                Dio_SetPortValue
+                0x00000958                Dio_GetPortValue
+ .text          0x0000097a       0x24 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Eeprom\Eeprom_Program.c.o
+                0x0000097a                Eeprom_WriteByte
+                0x00000990                Eeprom_ReadByte
+ .text          0x0000099e       0x76 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Exti\Exti_Program.c.o
+                0x0000099e                Exti_Enable
+                0x000009f0                Exti_Disable
+ .text          0x00000a14       0x46 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Timer\Timer_Program.c.o
+                0x00000a14                __vector_10
+                0x00000a38                Timer0_Init
+                0x00000a4a                Timer0_GetMillis
+ .text          0x00000a5a      0x114 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Uart\Uart_Program.c.o
+                0x00000a5a                Uart_Init
+                0x00000a6a                Uart_SendByte
+                0x00000a72                Uart_ReceiveByte
+                0x00000a7a                Uart_ReceiveAvailable
+                0x00000a82                Uart_SendString
+                0x00000a9a                Uart_SendNumber
+ .text          0x00000b6e        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text          0x00000b6e        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000b6e        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000b6e        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000b6e        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000b6e                        . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x00000b6e        0xa D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\main.c.o
+                0x00000b6e                main
+ .text.libgcc.mul
+                0x00000b78       0x1e C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00000b78                __umulhisi3
+ .text.libgcc.div
+                0x00000b96        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000b96        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000b96        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000b96        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000b96        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000b96        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00000b96        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x00000b96       0x44 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000b96                __udivmodsi4
+ .text.libgcc   0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000bda                        . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000bda        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00000bda                _exit
+                0x00000bda                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000bda        0x4 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x00000bde                        . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+                0x00000bde                        _etext = .
+
+.data           0x00800060       0xaa load address 0x00000bde
+                0x00800060                        PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x00800060        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\APP\Weather_App.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Buzzer\Buzzer_Program.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Lcd\Lcd_Program.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Ldr\Ldr_Program.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\LM35\LM35_Program.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\main.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Adc\Adc_Program.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Dio\Dio_Program.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Eeprom\Eeprom_Program.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Exti\Exti_Program.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Timer\Timer_Program.c.o
+ .data          0x00800060        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Uart\Uart_Program.c.o
+ .data          0x00800060        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00800060        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800060       0xaa D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\APP\Weather_App.c.o
+                                 0xad (size before relaxing)
+ *(.gnu.linkonce.r*)
+                0x0080010a                        . = ALIGN (0x2)
+                0x0080010a                        _edata = .
+                0x0080010a                        PROVIDE (__data_end = .)
+
+.bss            0x0080010a        0x9
+                0x0080010a                        PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x0080010a        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .bss           0x0080010a        0x7 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\APP\Weather_App.c.o
+ .bss           0x00800111        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Buzzer\Buzzer_Program.c.o
+ .bss           0x00800111        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Lcd\Lcd_Program.c.o
+ .bss           0x00800111        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Ldr\Ldr_Program.c.o
+ .bss           0x00800111        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\LM35\LM35_Program.c.o
+ .bss           0x00800111        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\main.c.o
+ .bss           0x00800111        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Adc\Adc_Program.c.o
+ .bss           0x00800111        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Dio\Dio_Program.c.o
+ .bss           0x00800111        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Eeprom\Eeprom_Program.c.o
+ .bss           0x00800111        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Exti\Exti_Program.c.o
+ .bss           0x00800111        0x2 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Timer\Timer_Program.c.o
+                0x00800111                Timer0_Millis
+ .bss           0x00800113        0x0 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Uart\Uart_Program.c.o
+ .bss           0x00800113        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00800113        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800113        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00800113        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800113        0x0 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ *(.bss*)
+ *(COMMON)
+                0x00800113                        PROVIDE (__bss_end = .)
+                0x00000bde                        __data_load_start = LOADADDR (.data)
+                0x00000c88                        __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800113        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x00800113                        _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+                0x00000000                        __flmap_init_label = DEFINED (__flmap_noinit_start)?__flmap_noinit_start:0x0
+                0x00000000                        __flmap = DEFINED (__flmap)?__flmap:0x0
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                        __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\APP\Weather_App.c.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Buzzer\Buzzer_Program.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Lcd\Lcd_Program.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\Ldr\Ldr_Program.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\HAL\LM35\LM35_Program.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\main.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Adc\Adc_Program.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Dio\Dio_Program.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Eeprom\Eeprom_Program.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Exti\Exti_Program.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Timer\Timer_Program.c.o
+ .comment       0x0000002f       0x30 D:\Environmental_Monitoring\release\WeatherStation-AVR-Controller\Src\MCAL\Uart\Uart_Program.c.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x4e6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x4e6 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_abbrev   0x00000000      0x4a3
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4a3 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_line     0x00000000       0x1d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1d C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x196
+ *(.debug_str)
+ .debug_str     0x00000000      0x196 C:/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(D:\Environmental_Monitoring\release\project.elf elf32-avr)
+LOAD linker stubs

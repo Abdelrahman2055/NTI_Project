@@ -14,5 +14,13 @@ void LM35_Init(void)
 
 uint8_t LM35_GetTemperature(void)
 {
-    return (uint8_t)(Adc_ReadChannel(LM35_CHANNEL) / LM35_STEPS_PER_CELSIUS);
+    uint16_t adc_value;
+    uint16_t temperature;
+
+    adc_value = Adc_ReadChannel(LM35_CHANNEL);
+
+    temperature = ((uint32_t)adc_value * 500UL) / 1024UL;
+    
+
+    return (uint8_t)temperature;
 }
